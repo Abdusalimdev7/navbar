@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/gallery.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="img/lg.png" rel="icon">
+  <title>Birds</title>
+</head>
+<body>
+
+<div id="coverScreen" class="LockOn"></div>
+
+<header>
+
+  <nav id="navigation" class="navbar navbar-expand-md navbar-light bg-light fixed-top py-0">
+
+    <a href="./index.html" class="navbar-brand p-0 m-0">
+      <img src="./img/lg.png" alt="pic" class="logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" 
+      data-toggle="collapse" 
+      data-target="#NavbarToggleDemo01" 
+      aria-controls="NavbarToggleDemo01" 
+      aria-expanded="false" aria-label="Toggle-navigation">
+      <span class="navbar-toggler-icon"></span>        
+    </button>
+  
+    <div class="collapse navbar-collapse font-italic" id="NavbarToggleDemo01">
+
+      <ul class="navbar-nav mr-auto mt-1 mt-lg-0">
+        <li class="nav-item-active">
+          <a href="#0" class="nav-link">Home</a>
+          <span class="sr-only"></span>
+        </li>
+        <li class="nav-item">
+          <a href="#0" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#0" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="#0" class="nav-link">Hosting</a>
+        </li>
+        <li class="nav-item">
+          <a href="#0" class="nav-link">Gallery</a>
+        </li>
+      </ul>
+
+      <form class="form-inline ml-auto my-2 my-lg-0 font-italic">
+        <input class="form-control mr-sm-2 border-dark custum_search" type="search" placeholder="Search">
+        <button class="btn btn btn-outline-dark my-2 my-sm-0 custum_btn" type="submit">
+          Search
+        </button>
+      </form>
+
+    </div>
+
+  </nav>
+
+  <div class="home_header font-italic">
+    <div class="home_header_body">
+      <div class="home_header_body_card">
+        <div class="home_header_body_card_text">
+          <div class="preload-image"></div>
+          <h4>
+            BIRD PICTURES AND FACTS <br>
+            Birds are you vertebrate animals adapted for flight.
+          </h4>
+          <p>Beautiful birds in the world</p>
+
+          <button class="header_btn font-italic" id="default">
+            Default
+          </button>
+
+          <button class="header_btn font-italic" id="next">
+            Next
+          </button>
+
+          <button class="header_btn font-italic" id="preview">
+            Preview
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</header>
+
+
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/aaa.jpg" alt="aaa">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<main class="bg-light">
+  <section>
+    
+    <div class="row d-flex m-auto justify-content-center demo gallery">
+
+      <div class="col-md-4">
+        <div class="card shadow p-1 m-2">
+          <a href="./img/bird1.jpg">
+            <img src="./img/bird1.jpg" class="img-fluid fadeIn" alt="bird">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-lg p-1 m-2">
+          <a href="./img/bird2.jpg">
+            <img src="./img/bird2.jpg" class="img-fluid fadeIn" alt="bird">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-lg p-1 m-2">
+          <a href="./img/bird3.jpg">
+            <img src="./img/bird3.jpg" class="img-fluid fadeIn" alt="bird">
+          </a>
+        </div>
+      </div>
+
+  <div class="row d-flex m-auto justify-content-center demo gallery">
+
+      <div class="col-md-3">
+        <div class="card shadow p-1 m-2 bg-secondary">
+          <a href="./img/lll.jpg">
+            <img src="./img/lll.jpg" class="img-fluid fadeIn" alt="bird">
+            <button class="shadow-lg p-3 mb-5 bg-secondary rounded bg-primary p-1 m-2 font-italic">London</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card shadow-lg p-1 m-2 bg-success">
+          <a href="./img/bg2.jpg">
+            <img src="./img/bg2.jpg" class="img-fluid fadeIn" alt="bird">
+           <button class="shadow-lg p-3 mb-5 bg-success rounded bg-primary p-1 m-2 font-italic">Parrot</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card shadow-lg p-1 m-2 bg-dark">
+          <a href="./img/amsa.jpg">
+            <img src="./img/amsa.jpg" class="img-fluid fadeIn" alt="bird">
+            <button class="shadow-lg p-3 mb-5 bg-dark rounded bg-primary p-1 m-2 font-italic">BWM</button>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="card shadow-lg p-1 bg-danger">
+          <a href="./img/red.jpg">
+            <img src="./img/red.jpg" class="img-fluid fadeIn" alt="bird">
+          <button class="shadow-lg p-3 mb-5 bg-danger rounded bg-primary p-1 m-2 font-italic">Haker</button>
+          </a>
+        </div>
+      </div>
+
+  
+    </div>
+
+    <div class="m-auto text-center pt-3 pb-3 h2 text-muted">
+      Carousel views
+    </div>
+
+<div class="row justify-content-center m-auto text-center">
+
+            <div class="col-md-6 ">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleSlidesOnly" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner my_carousel">
+      
+                  <div class="carousel-item my_carousel_img_box w-300 active">
+                    <img src="./img/bg1.jpg" class="carousel_img" alt="img">
+                  </div>
+      
+                  <div class="carousel-item my_carousel_img_box w-300">
+                    <img src="./img/bg2.jpg" class="carousel_img" alt="img">
+                  </div>
+      
+                  <div class="carousel-item my_carousel_img_box w-300">
+                    <img src="./img/bg3.jpg" class="carousel_img " alt="img">
+                  </div>
+      
+                  <a href="#carouselExampleSlidesOnly" class="carousel-control-prev" 
+                    role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                  </a>
+      
+                  <a href="#carouselExampleSlidesOnly" class="carousel-control-next" 
+                    role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                  </a>
+      
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.74398302598!2d69.13928060592791!3d41.28277055691682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQvtGI0LrQtdC90YIsIE9gemJla2lzdG9u!5e0!3m2!1suz!2s!4v1652897171964!5m2!1suz!2s"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+    </div>
+  </section>
+
+
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/gallery.min.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
